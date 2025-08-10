@@ -18,6 +18,7 @@ const Player = dynamic(
 const DURATION = 0.6;
 const STAGGER = 0.05;
 const DELAY_DEFAULT = 0.6;
+const SCROLL_SECTION_HEIGHT_VH = 120; // reduce initial scroll length
 
 enum Stage {
   INITIAL,
@@ -148,10 +149,10 @@ export const Pha = () => {
       ${tektur.className}
     `}
       style={{
-        height: "500vh",
+        height: `${SCROLL_SECTION_HEIGHT_VH}vh`,
       }}
     >
-      <div className="sticky top-1/4 tracking-widest text-center text-nowrap overflow-x-clip h-screen pt-0 lg:p-16">
+      <div className="sticky top-1/4 tracking-widest text-center text-nowrap overflow-x-clip h-screen pt-0 lg:p-16 ml-20">
         <motion.p className="z-0">
           {config.map((item, idx) => (
             <motion.span
