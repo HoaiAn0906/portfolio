@@ -152,7 +152,7 @@ export const Pha = () => {
         height: `${SCROLL_SECTION_HEIGHT_VH}vh`,
       }}
     >
-      <div className="sticky top-1/4 tracking-widest text-center text-nowrap overflow-x-clip h-screen pt-0 lg:p-16 ml-20">
+      <div className="sticky top-1/4 tracking-widest text-center text-nowrap overflow-x-clip h-screen pt-0 lg:p-16 ml-10">
         <motion.p className="z-0">
           {config.map((item, idx) => (
             <motion.span
