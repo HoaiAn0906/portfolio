@@ -73,5 +73,15 @@ const projects = [
         <img src="/project-imgs/yose_home_2.png" />
       </>
     ),
+  },
+  {
+    title: "[Solo] This portfolio",
+    imgSrc: "/screenshot.png",
+    code: "https://github.com/HoaiAn0906/portfolio",
+    projectLink: "https://hoaiandev.netlify.app/",
+    tech: ["Next.js", "Tailwind CSS", "TypeScript", "React"],
+    description:
+      "This portfolio website",
+    modalContent: <></>,
   }
 ];
