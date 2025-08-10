@@ -44,7 +44,7 @@ export default function RootLayout({
 
         <meta property="og:title" content={metadata.title?.toString()} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://phanhoaian.netlify.app/" />
+        <meta property="og:url" content="https://phanhoaian.netlify.app" />
         <meta
           property="og:image"
           content="https://phanhoaian.netlify.app/screenshot.png"
