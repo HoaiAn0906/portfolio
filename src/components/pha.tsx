@@ -3,11 +3,17 @@ import { useMotionValueEvent, useScroll } from "framer-motion";
 import { useLayoutEffect, useMemo, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import ComputerJson from "./computer.json";
-import { Player } from "@lottiefiles/react-lottie-player";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import { Tektur } from "next/font/google";
 
 const tektur = Tektur({ subsets: ["latin"] });
+
+// Avoid SSR usage of react-lottie-player which touches `document` at import time
+const Player = dynamic(
+  () => import("@lottiefiles/react-lottie-player").then((m) => m.Player),
+  { ssr: false }
+);
 
 const DURATION = 0.6;
 const STAGGER = 0.05;
