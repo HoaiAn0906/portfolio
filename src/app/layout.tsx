@@ -44,10 +44,10 @@ export default function RootLayout({
 
         <meta property="og:title" content={metadata.title?.toString()} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://mtosity.com/" />
+        <meta property="og:url" content="https://phanhoaian.netlify.app/" />
         <meta
           property="og:image"
-          content="https://mtosity.com/screenshot.png"
+          content="https://phanhoaian.netlify.app/screenshot.png"
         />
         <meta
           property="og:description"
