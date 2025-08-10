@@ -13,7 +13,7 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Howdy! I&apos;m Phan Hoài An, a software engineer.
+              Hi! I&apos;m Phan Hoài An, a software engineer.
               <br />
               <br />
               Fullstack developer, proficient in build responsive web app using
