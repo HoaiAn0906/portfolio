@@ -5,7 +5,7 @@ import { Analytics } from "@vercel/analytics/react";
 export const metadata: Metadata = {
   title: "Phan Hoài An",
   description:
-    "Baymax Engineer, I'll do everything that interesting and challenging",
+    "Fullstack Engineer specialize in Web Technologies",
 };
 
 export default function RootLayout({
@@ -54,17 +54,17 @@ export default function RootLayout({
           content={metadata.description?.toString()}
         />
 
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@mtosity" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@phanhoaian" />
         <meta name="twitter:title" content={metadata.title?.toString()} />
         <meta
           name="twitter:description"
           content={metadata.description?.toString()}
         />
-        <meta name="twitter:creator" content="@mtosity" />
+        <meta name="twitter:creator" content="@phanhoaian" />
         <meta
           name="twitter:image"
-          content="https://deverajc.com/screenshot.png"
+          content="https://phanhoaian.netlify.app/screenshot.png"
         />
         <script src="./gatsby.js" async={false}></script>
         <script src="./sw.js" async={false}></script>
