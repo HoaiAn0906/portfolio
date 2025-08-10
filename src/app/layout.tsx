@@ -44,10 +44,10 @@ export default function RootLayout({
 
         <meta property="og:title" content={metadata.title?.toString()} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://phanhoaian0906.netlify.app" />
+        <meta property="og:url" content="https://hoaian.netlify.app" />
         <meta
           property="og:image"
-          content="https://phanhoaian0906.netlify.app/screenshot.png"
+          content="https://hoaian.netlify.app/screenshot.png"
         />
         <meta
           property="og:description"
@@ -55,16 +55,16 @@ export default function RootLayout({
         />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@phanhoaian0906" />
+        <meta name="twitter:site" content="@hoaian" />
         <meta name="twitter:title" content={metadata.title?.toString()} />
         <meta
           name="twitter:description"
           content={metadata.description?.toString()}
         />
-        <meta name="twitter:creator" content="@phanhoaian0906" />
+        <meta name="twitter:creator" content="@hoaian" />
         <meta
           name="twitter:image"
-          content="https://phanhoaian0906.netlify.app/screenshot.png"
+          content="https://hoaian.netlify.app/screenshot.png"
         />
         <script src="./gatsby.js" async={false}></script>
         <script src="./sw.js" async={false}></script>
